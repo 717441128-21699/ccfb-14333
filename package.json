@@ -1,0 +1,24 @@
+{
+  "name": "rubbing-quality-scorer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "拓片拓制质量自动评分系统:墨色均匀/字口清晰/纸面平整/石花干扰",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "bench": "vite --open /bench.html"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}
